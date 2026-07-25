@@ -18,6 +18,6 @@ opensearch-py==2.8.0  # < 3 to match server
 requests==2.32.4
 resumablesha256==1.0
 rsa==4.7.2  # < 4.8, see https://github.com/DataBiosphere/azul/issues/6774. Resolve build-time dependency ambguity
-setuptools==80.9.0  # Match requirements.pip.txt. Python 3.12 removed distutils, which we depended on transitively. Luckily, setuptools includes a vendored copy.
+setuptools==83.0.0  # Match requirements.pip.txt. Python 3.12 removed distutils, which we depended on transitively. Luckily, setuptools includes a vendored copy.
 urllib3==2.7.0 # < 2, see https://github.com/DataBiosphere/azul/issues/6777, match with types-urllib in requirements.dev.txt
 -r requirements.trans.txt
