@@ -8,7 +8,7 @@ et_xmlfile==2.0.0
 gitdb==4.0.12
 google-auth-httplib2==0.2.0
 greenlet==3.2.4
-httplib2==0.22.0
+httplib2==0.32.0
 inquirer==3.4.1
 jinja2==3.1.6
 jsonschema-path==0.3.4
