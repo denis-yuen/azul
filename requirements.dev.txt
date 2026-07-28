@@ -1,5 +1,5 @@
 atomicwrites==1.4.1
-awscli==1.42.3
+awscli==1.44.78
 boto3-stubs-lite[apigateway,cloudwatch,dynamodb,ec2,ecr,es,iam,kms,lambda,s3,secretsmanager,securityhub,sns,sqs,ssm,stepfunctions,sts]==1.40.3  # match this with the version of the `boto3` runtime dendency
 coverage==7.10.2
 docker==7.1.0
